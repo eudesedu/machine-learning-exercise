@@ -16,7 +16,8 @@ def f_load_dataset_local(setwd):
                  d_cancel_card.columns,
                  d_cancel_card.corr(),
                  d_cancel_card.isnull().sum(),
-                 d_cancel_card.nunique())
+                 d_cancel_card.nunique(),
+                 d_cancel_card.shape)
 
 def f_main():
     """
